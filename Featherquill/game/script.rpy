@@ -157,7 +157,7 @@ menu the_birds:
         $ birds_appreciated += 1
         jump talk_crane
 
-    "the stork and her family of chicks (*^ ω ^)":
+    "the stork and her chick (*^ ω ^)":
         $ birds_appreciated += 1
         jump talk_stork
 
@@ -173,6 +173,25 @@ label talk_crane:
 
 label talk_stork:
 
+       h "This stork and her chick are absolutely adoarble! What's it like looking over a family?"
+	   
+	   s "Well, it's worth noting that I raised two storks since they were chicks, imported from the mountain around the entrance to the underground,"
+	   
+	   s "So just seeing them go on to make a family together has been really sweet for me."
+	   
+	   s "To get onto what it's like looking a family, though.{w} Well, I think I've gotten pretty used to it, since they mostly take care of themselves anyway."
+	   
+	   s "I do my best to help provide for the chicks, though, just to take some of the stress off the parents. And they really are adorable when they're together."
+	   
+	   s "Before this little stork family came into my life recently, I'd never actually really seen what birds flocking together was like."
+	   
+	   s "Even in spite of just how many bird species lay within this palace.
+	   
+	   s "But watching the chicks lovingly follow their parents as they explore the palace, or playing around with the other birds..."
+	   
+	   s "I think it's really reenforced this sense of community I've always loved in regards to raising all of these different animals."
+	   
+    
 label talk_cockatoo:
 
        show hatate thinking at left
@@ -319,7 +338,7 @@ label talk_kiwi:
 
        s "And well, kiwis aren't exactly really good at defending themselves. Running, sure, but I'd hardly expect one to win a fight."
 
-       s "She could've gotten seriously hurt before I ever laid my eyes on hier. I may not have ever met her at all. But she's found somewhere comfortable to be here, and I think that's really nice."
+       s "She could've gotten seriously hurt before I ever laid my eyes on her. I may not have ever met her at all. But she's found somewhere comfortable to be here, and I think that's really nice."
 
        show hatate frowning at left
 
