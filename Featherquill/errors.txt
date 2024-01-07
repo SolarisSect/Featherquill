@@ -1,0 +1,30 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 106: menu statement expects a non-empty block.
+    menu the_birds:
+        ^
+
+File "game/script.rpy", line 108: expected statement.
+    set menuset
+               ^
+
+File "game/script.rpy", line 111: expected statement.
+    "the quail poking around the kitchen":
+                                         ^
+
+File "game/script.rpy", line 115: expected statement.
+    "the stork and her family of chicks (*^ ω ^)":
+                                                 ^
+
+File "game/script.rpy", line 119: expected statement.
+    "the cockatoo resting beneath an abandoned birdcage":
+                                                        ^
+
+File "game/script.rpy", line 123: expected statement.
+    "that kiwi bird freaking ZOOMING around the place, holy crap":
+                                                                 ^
+
+Ren'Py Version: Ren'Py 8.1.3.23091805
+Fri Jan  5 20:59:14 2024
