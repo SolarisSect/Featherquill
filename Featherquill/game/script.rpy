@@ -3,9 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Hatate", color="#cf29be")
-define s = Character("Satori", color="#9229cf")
-define q = Character("???", color="#9229cf")
+define h = Character("Hatate", color="#ffd3fb",who_outlines = [(3,"#8b1980")])
+define s = Character("Satori", color="#eed0ff",who_outlines = [(3,"#9229cf")])
+define q = Character("???", color="#eed0ff",who_outlines = [(3,"#9229cf")])
 default birds_appreciated = 0
 default menuset = set()
 

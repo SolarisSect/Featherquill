@@ -247,16 +247,17 @@ screen quick_menu():
             style_prefix "quick"
 
             xalign 0.5
-            yalign 1.0
-
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            yalign .99
+            spacing 15
+            imagebutton auto "gui/qm/log_%s.png" action ShowMenu('history')
+            imagebutton auto "gui/qm/skip_%s.png" action Skip() alternate Skip(fast=True, confirm=True)
+            imagebutton auto "gui/qm/auto_%s.png" action Preference("auto-forward", "toggle")
+            imagebutton auto "gui/qm/save_%s.png" action ShowMenu('save')
+            imagebutton auto "gui/qm/qsave_%s.png" action QuickSave()
+            imagebutton auto "gui/qm/qload_%s.png" action QuickLoad()
+            imagebutton auto "gui/qm/config_%s.png" action ShowMenu('preferences')
+            at transform:
+                matrixcolor HueMatrix(125)
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
