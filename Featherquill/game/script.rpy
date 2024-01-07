@@ -46,19 +46,19 @@ label start:
 
     "The crow tengu, Hatate Himekaidou, enters the room to immediate awe. This was her casual workplace? It was large enough to be a whole library."
 
-    show hatate_surprised at left
+    show hatate surprised at left
 
     h "Whoa... I, erm, sorry. I hope didn't pick a bad time to come."
 
-    show satori_smiling at right
+    show satori smiling at right
 
     q "It's fine, don't worry. I wasn't really doing much today."
 
-    show hatate_thinking at left
+    show hatate thinking at left
 
     "Hatate takes a deep breath, and does her best to put on her work face."
 
-    show hatate_smiling at left
+    show hatate smiling at left
 
     h "Haha, well, okay. It's nice to meet you, Satori Komeiji!"
 
@@ -66,27 +66,27 @@ label start:
 
     h "Right. The pet who introduced me at your doorstep would've told you my name."
 
-    show satori_smug at right
+    show satori smug at right
 
     s "Indeed."
 
-    show satori_smiling at right
+    show satori smiling at right
 
     "Hatate approaches Satori's desk, giving an anxious glance towards the satori's 3rd eye staring right towards her."
 
-    show hatate_anxious at left
+    show hatate anxious at left
 
     h "Uhm, if it's not too much to ask, do you mind pointing that thing away? It's kind of an evasion of privacy, haha..."
 
-    show satori_sighing at right
+    show satori sighing at right
 
     "Satori lets out a hefty sigh, but listens and follows suit regardless, shifting her eye to the side."
 
-    show satori_tired at right
+    show satori tired at right
 
     s "Does that make you feel more comfortable?"
 
-    show hatate_smiling at left
+    show hatate smiling at left
 
     h "Yes. Thank you."
 
@@ -94,45 +94,45 @@ label start:
 
     "Or, well, maybe the furniture in the Tengu Village just really sucked."
 
-    show satori_thinking at right
+    show satori thinking at right
 
     s "So, I take it you're here to interview me, right? Is there anything you particularly had in mind?"
 
     h "Well, it's that I was quite fascinated hearing stories about your vast collection of pets! I figured a piece on the birds here in particular would be just the kind of thing for my paper."
 
-    show hatate_excited at left
+    show hatate excited at left
 
     h "I can already tell you have some really fun critters around here, so I'd love to learn more about them. And I'm sure the readers of the Kakashi Spirit News would love to as well!"
 
-    show satori_smiling at right
+    show satori smiling at right
 
     s "Oh, you're taking an interest in my pets? Here was I worried you were going to ask some annoying questions about my private life."
 
-    show hatate_annoyed at left
+    show hatate annoyed at left
 
     h "Please, I have better things to do than that. I'm more tasteful than some others."
 
-    show satori_thinking at right
+    show satori thinking at right
 
     s "Hmm.{w} In that case, I'd actually love to take you up on your offer."
 
-    show hatate_surprised at left
+    show hatate surprised at left
 
     h "Wait, really? You don't think it's too silly of an idea or anything?"
 
-    show satori_laughing at right
+    show satori laughing at right
 
     s "No, of course not! I could talk about my pets for hours."
 
-    show satori_tired at right
+    show satori tired at right
 
     s "And well, I don't typically get any visitors in the first place, although I usually don't appreciate their company either."
 
-    show hatate_frowning at left
+    show hatate frowning at left
 
     h "Yeah... I can unfortunately understand why. Some people down here seem really mean."
 
-    show satori_sighing at right
+    show satori sighing at right
 
     s "You get used to it, for the better or worse. Hasn't stopped me from doing what I truly love at least."
 
@@ -140,11 +140,11 @@ label start:
 
     h "That's good at least."
 
-    show hatate_smiling at left
+    show hatate smiling at left
 
     h "Well, in any case, if you're down, then how about we get this interview started! I already have a few particular pets I'd like to ask about."
 
-    show satori_smiling at right
+    show satori smiling at right
 
     s "Feel free to shoot your questions then."
 
@@ -175,13 +175,119 @@ label talk_stork:
 
 label talk_cockatoo:
 
+       show hatate thinking at left
+
+       show satori smiling at right
+
+       h "Something funny I happened to notice was a cockatoo underneath a rather abandoned birdcage. I take it you like letting your birds fly freely?"
+
+       s "Yes. I find my pets in better spirits when they aren't as restricted around the palace. Most of them behave pretty well regardless."
+
+       show satori laughing at right
+
+       s "This cockatoo, Percy, though... happens to be one of worse behaved ones, haha. Ironic that you'd find him near an abandoned cage."
+
+       show satori smiling at right
+
+       s "Percy's quite the rowdy one. He frequently gets into fights into fights with the parrots in the palace. Verbally, mind you."
+
+       show hatate laughing at left
+
+       h "Oh no...{w} Truly only the greatest arguments would ensue."
+
+       show satori sighing at right
+
+       s "It got even worse after Utsuho taught the parrots how to swear... It's like hearing an actual underground brawl sometimes, except it's just loud squawking."
+
+       h 'Almost like a tengu brawl too...{w} The environment follows me wherever I go, damn it!'
+
+       show satori smiling at right
+
+       s "Unfortunate."
+
+       show hatate smiling at left
+
+       s "I'm still fond of Percy, though. He can be a handful, but he's quite handsome. He acts very proud, and I like seeing that in my pets."
+
+       show satori smug at right
+
+       s "I also might've named him after a character from one of my favorite books.{w} You know, just maybe."
+
+       h "I'm not at all surprised you're the reading type, heh."
+
+       show satori smiling at right
+
+       s "Definitely. I spend hours reading books every single day.{w} All of these different stories by all of these different authors across Gensokyo and the Outside World... it gets really interesting, you know?"
+
+       h "Yeah I get really sunk into fiction sometimes too.{w} It's just, like, really comfortable and all, you know? So I think it's really neat you've sort left a mark of how its affected you onto a pet you love."
+
+       h "Like, when I started thinking about dodging life around the Tengu Village, I found books and manga to be a pretty great escape from my troubles."
+
+       h "I could never really find other people to talk to about them, unfortunately, but that didn't stop me from enjoying them on my own time."
+
+       show hatate laughing at left
+
+       h "Like, there's this one I read at the time about some magical alien dude dragging this completely normal dude across space, and it was so entertaining and unlike anything I'd experienced at the time."
+
+       s "That sounds quite fun. I haven't read much science fiction myself. Perhaps I could change that someday, since I am constantly on the lookout for more atypical fiction."
+
+       show hatate smiling at left
+
+       h "I could throw a few suggestions after this interview, if you want!"
+
+       s "Consider me interested."
+
+       s "And yeah, I agree that fiction is a wonderful escape from the harshness of reality."
+
+       s "I've gone through plenty of rough times myself, but there's always been these great stories of the right people prevailing to keep me motivated in life."
+
+       h "Yeah, it's exactly like that for me too."
+
+       h "You know, I'm having a lot of fun talking to you, actually.{w} We're more similar than I expected, you know?"
+
+       s "Likewise, this is fun."
+
+       show hatate thinking at left
+
+       h "Oh yeah, we got completely sidetracked. Do you have any other stories about the cockatoo?"
+
+       show satori sighing at right
+
+       s "Well, there's that time he rode a cat into the absolutely incredible mission of... trying to impress another cockatoo, who unfortunately did not reciprocate."
+
+       show hatate frowning at left
+
+       h "Damn. He even brought the noble steed."
+
+       show hatate laughing at left
+
+       h "Well, at least I'm sure this is absolutely the kind of spicy relationship drama my readers would be looking for, right?"
+
+       show satori laughing at right
+
+       s "Surely."
+
+       jump the_birds
+
 label talk_kiwi:
+
+       show hatate smiling at left
+
+       show satori smiling at right
+
+       show image "kwiii.png" at truecenter
 
        h "So that little kiwi bird of yours, right? She seems uh, really energetic. What's that like to deal with as a pet owner?"
 
+       show satori sighing at right
+
        s "I've had to changed furniture in several rooms for Kuri, haha."
 
+       show hatate frowning at left
+
        h "Oh dear."
+
+       show satori tired at right
 
        s "You see, she's such a little ball of unfiltered energy that she kept constantly tripping around the palace."
 
@@ -189,7 +295,11 @@ label talk_kiwi:
 
        s "I love her, but she's been one of my most handful pets."
 
+       show hatate smiling at left
+
        h "I'm glad you've given her some good care. Seems like a really good friend at the end of the day."
+
+       show satori smiling at right
 
        s "Yes! Very true.{w} Not enough people down in the underground appreciate the idea that animals can be your best friends."
 
@@ -197,19 +307,33 @@ label talk_kiwi:
 
        s "She's so adorable to play with, for instance! An absolutely fantastic cuddler too."
 
+       show hatate excited at left
+
        h "Aw. That's so cute!"
 
+       show hatate smiling at left
+
        s "I'm glad I managed to find her. Kiwi birds are very extant, like many things I've taken under my wing, I really wonder how she even got down here in the first place."
+
+       show satori concerned at right
 
        s "And well, kiwis aren't exactly really good at defending themselves. Running, sure, but I'd hardly expect one to win a fight."
 
        s "She could've gotten seriously hurt before I ever laid my eyes on hier. I may not have ever met her at all. But she's found somewhere comfortable to be here, and I think that's really nice."
 
+       show hatate frowning at left
+
        h "Yeah, I've always wondered what the climate for animals must be like down here."
+
+       show satori sighing at right
 
        s "Awful, most of the time. The underground, especially around Former Hell in particular, is extremely about adaption. If you aren't some magical hell raven, you're basically doomed from the start."
 
+       show satori smiling at right
+
        s "Really, Kuri is a large example of why I'm a pet owner, I think. I like to view the Palace of the Earth Spirits as a safe haven in a sea of terrible pet owners.{w} Maybe calling myself the one who cares is a bit egotistical, but I think it's true."
+
+       show hatate smiling at left
 
        h "I don't think I would disagree. This place is way more comfortable to be in than the rest of Former Hell to me."
 
@@ -217,16 +341,26 @@ label talk_kiwi:
 
        h "I'm usually sitting on the sidelines of most parties, haha. Crowds can get kind of too much for me.{w} Maybe I'm not too far from a little bird myself."
 
-       s "You're certainly tall for one, haha."
+       show satori laughing at right
+
+       s "You're certainly tall for one."
+
+       show satori smiling at right
 
        s "But yeah, I'm glad you're comfortable here."
 
        h "And I'm happy your pets can feel the same."
 
+       hide image "kwiii.png"
+
        jump the_birds
 
 label after_the_birdial:
 
+    show hatate smiling at left
+
     h "Well, those were some very nice fellas of yours!"
+
+
 
     return
